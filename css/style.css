@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "GE SS Two";
+    src: url(../fonts/GESSTwoLight.otf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "GE SS Two";
+    src: url(../fonts/GESSTwoMedium.otf) format("truetype");
+}
+
+
+
+@font-face {
+    font-family: "GE SS TV";
+    src: url(../fonts/GESSTVBold.otf) format("truetype");
+}
+
+#animation_container,
+#_preload_div_,
+#video_div {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#video_div {
+    position: fixed;
+    display: none;
+}
+
+#dom_overlay_container {
+    pointer-events: none;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+}
